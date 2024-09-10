@@ -61,10 +61,9 @@ a:hover {
 }
 
 /* Hamburger Menu */
-/* Hamburger Menu */
 #hamburger-nav {
     display: none;
-    position: relative; /* Ensure positioning of the nav menu */
+    position: relative;
 }
 
 .hamburger-icon {
@@ -89,14 +88,14 @@ a:hover {
     right: 0;
     background-color: white;
     width: fit-content;
-    height: 0; /* Initially collapsed */
+    height: 0;
     overflow: hidden;
-    transition: height 0.3s ease-in-out; /* Animates height */
-    z-index: 100; /* Ensures it's above other content */
+    transition: height 0.3s ease-in-out;
+    z-index: 100;
 }
 
 .menu-links.open {
-    height: 150px; /* Adjust the height to fit the menu items */
+    height: 150px;
 }
 
 .menu-links ul {
@@ -105,11 +104,11 @@ a:hover {
     font-size: 1rem;
     list-style: none;
     display: flex;
-    flex-direction: column; /* Stack the links vertically */
+    flex-direction: column;
 }
 
 .menu-links li {
-    margin: 10px 0; /* Spacing between links */
+    margin: 10px 0;
 }
 
 .hamburger-icon.open span:first-child {
@@ -136,3 +135,149 @@ a:hover {
 }
 
 /* Sections */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* Profile Section */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 100vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text_p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icons */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* Buttons */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover, .btn-color-2:hover {
+    cursor: pointer;
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+    background: none;
+}
+
+/* About Section */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+}
+
+.about-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
