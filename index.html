@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
@@ -10,11 +9,11 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Archish Mehta</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#experince">Experince</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -30,7 +29,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#experince" onclick="toggleMenu()">Experince</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -38,12 +37,15 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img
+          src="./assets/profile-pic.png"
+          alt="Archish Mehta Profile Picture"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Archish Mehta</h1>
-        <p class="section__text__p2">Computer Science Student</p>
+        <p class="section__text__p2">Database Engineer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -58,27 +60,27 @@
         <div id="socials-container">
           <img
             src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
+            alt="My LinkedIn Profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/archish-mehta-794a0b2ba/overlay/about-this-profile/'"
+            onclick="window.open('https://www.linkedin.com/in/archishmehta/', '_blank')"
           />
           <img
             src="./assets/github.png"
-            alt="My Github profile"
+            alt="My Github Profile"
             class="icon"
-            onclick="location.href='https://github.com/ArchishMehta'"
+            onclick="window.open('https://github.com/ArchishMehta/', '_blank')"
           />
         </div>
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
+      <p class="section__text__p1">Get To Know Me</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
             src="./assets/about-pic.png"
-            alt="Profile picture"
+            alt="Profile Picture"
             class="about-pic"
           />
         </div>
@@ -87,45 +89,52 @@
             <div class="details-container">
               <img
                 src="./assets/experience.png"
-                alt="Experience icon"
+                alt="Experince Icon"
                 class="icon"
               />
-              <h3>Experience</h3>
+              <h3>Experince</h3>
               <p>
-                2+ years <br />
-                Coding backend and frontend
+                3+ years of<br />
+                Database Engineer
               </p>
             </div>
             <div class="details-container">
               <img
                 src="./assets/education.png"
-                alt="Education icon"
+                alt="Education Icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />Minor in User Experince Design</p>
+              <p>
+                BSc Computer Science <br />
+                Minor UX Design
+              </p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              I'm a Computer Science student with a minor in UX design,
-              passionate about creating unique and useful projects. I enjoy
-              working on projects that combine my technical skills and design
-              knowledge to create creative projects.
+              I’m a third-year Computer Science student with a minor in UX
+              design, and I’m really into building cool things with data. I’m
+              especially drawn to database engineering — I love figuring out how
+              to structure data efficiently and make systems run smoothly. I
+              also enjoy working on projects that let me combine my technical
+              skills with a bit of creativity and design thinking. Whether it’s
+              optimizing queries or crafting a better user experience, I’m
+              always up for a challenge that helps me learn and grow.
             </p>
           </div>
         </div>
       </div>
       <img
         src="./assets/arrow.png"
-        alt="Arrow icon"
+        alt="Arrow Icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#experince'"
       />
     </section>
-    <section id="experience">
+    <section id="experince">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Experince</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -134,105 +143,153 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark Icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Swift</h3>
-                  <p>Experienced</p>
+                  <h3>HTML</h3>
+                  <p>Experinced</p>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark Icon"
                   class="icon"
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <p>Experinced</p>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark Icon"
                   class="icon"
                 />
                 <div>
-                  <h3>C</h3>
-                  <p>Intermediate</p>
+                  <h3>SASS</h3>
+                  <p>Intermerdiate</p>
                 </div>
               </article>
-              <!-- Add this closing tag here -->
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experinced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Experinced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Experinced</p>
+                </div>
+              </article>
             </div>
-            <!-- Correct placement of closing div for Frontend Development section -->
           </div>
-        </div>
-        <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark Icon"
                   class="icon"
                 />
                 <div>
-                  <h3>C</h3>
-                  <p>Experienced</p>
+                  <h3>MySQL</h3>
+                  <p>Experinced</p>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Experinced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                  <p>Entry-Level</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Experinced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark Icon"
                   class="icon"
                 />
                 <div>
                   <h3>Python</h3>
-                  <p>Experienced</p>
+                  <p>Experinced</p>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark Icon"
                   class="icon"
                 />
                 <div>
                   <h3>Java</h3>
-                  <p>Intermediate</p>
+                  <p>Experinced</p>
                 </div>
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SQL</h3>
-                  <p>Beginner</p>
-                </div>
-              </article>
-              <!-- Add this closing tag here -->
             </div>
-            <!-- Correct placement of closing div for Backend Development section -->
           </div>
         </div>
       </div>
       <img
         src="./assets/arrow.png"
-        alt="Arrow icon"
+        alt="Arrow Icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
     </section>
-
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
+      <p class="section__text__p1">Few of My Projects</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
@@ -244,17 +301,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Verdentia</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ArchishMehta/MovieMatch'"
+                onclick="window.open('https://www.linkedin.com/in/archishmehta/', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ArchishMehta/Snake'"
+                onclick="window.open('https://www.linkedin.com/in/archishmehta/', '_blank')"
               >
                 Live Demo
               </button>
@@ -268,17 +325,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Movie Match</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://www.linkedin.com/in/archishmehta/', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://www.linkedin.com/in/archishmehta/', '_blank')"
               >
                 Live Demo
               </button>
@@ -292,17 +349,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Pacman</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://www.linkedin.com/in/archishmehta/', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://www.linkedin.com/in/archishmehta/', '_blank')"
               >
                 Live Demo
               </button>
@@ -312,19 +369,19 @@
       </div>
       <img
         src="./assets/arrow.png"
-        alt="Arrow icon"
+        alt="Arrow Icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='./#experince'"
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
+      <p class="section__text__p1">Get In Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
             src="./assets/email.png"
-            alt="Email icon"
+            alt="Email Icon"
             class="icon contact-icon email-icon"
           />
           <p>
@@ -334,14 +391,11 @@
         <div class="contact-info-container">
           <img
             src="./assets/linkedin.png"
-            alt="LinkedIn icon"
+            alt="LinkedIn Icon"
             class="icon contact-icon"
           />
           <p>
-            <a
-              href="https://www.linkedin.com/in/archish-mehta-794a0b2ba/overlay/about-this-profile/"
-              >LinkedIn</a
-            >
+            <a href="https://www.linkedin.com/in/archishmehta/'">LinkedIn</a>
           </p>
         </div>
       </div>
@@ -351,13 +405,13 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experince">Experince</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Archish Mehta. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 Archish Mehta. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
